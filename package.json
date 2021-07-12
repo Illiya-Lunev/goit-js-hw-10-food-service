@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/index.html ",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
     "joi": "^17.4.1"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.5"
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-nuke-dist": "^1.0.1"
   }
 }
